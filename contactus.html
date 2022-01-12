@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html>
+
+<head>
+<title> Alaska Home </title>
+<style> 
+
+.header { background-color:#E1DB9D;padding : 20px; text-align:center;}
+.middle { padding: 500px; text-align:center;background-image:url('https://www.telegraph.co.uk/content/dam/Travel/2016/October/alaska-denali-autumn-ALAMY.jpg');opacity:.9;color:white;}
+.content {background-color:black; opacity:0.7;font-size:30px;border:10px solid black;font-family:'Times New Roman',Times, serif; padding:20px;color:white;}
+.wrapper {margin:100px;margin-left:1000px; padding: 50px; text-align: center; width: 300px; height: 400px; border: 1px solid black; background-color: white;}
+.footer{background-color:lightskyblue;padding:10px;text-align:center;font-size:20px;color:black;}
+
+
+nav ul li {list-style:none;} ul li {list-style:none;}
+
+nav {float:right;
+}
+nav ul{margine:0;padding:0;list-style:none;}
+nav li {display: inline-block; margin-left: 70px;padding-top: 23px;position:relative;}
+nav a { color:#444;text-decoration:none;text-transform:uppercase;font-size:14px;}
+nav a:hover{color:#000;}
+nav a::before{content:"";display:block;height:5px;background-color:#444;position:absolute;top:0;width:0%;transition: all ease-in-out 250ms;}
+nav a:hover::before{width:100%;}
+h2.shadow{text-shadow:2px 2px;font-size:30px;}
+h3.shadow{text-shadow:2px 2px yellow;font-size:30px;}
+.wrapper.input_field{margin-bottom: 10px;}
+.wrapper .input_field input[type="text"], .wrapper textarea{border:1px solid #e0e0e0; width: 100%; padding:10px;}
+.wrapper textarea{resize:none;height: 80px;}
+.wrapper h2{text-align: center; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 3px; color: #332902;}
+
+</style>
+</head>
+
+<body>
+
+
+
+
+
+<div class="header">
+<img src = 'https://cf.ltkcdn.net/photography/images/orig/127342-425x282-scenery.jpg' height = '400' width = '400'> 	
+
+<nav> <ul> <li> <a href="index.html"> Home </a></li>
+<li> <a href="alaskahotels.html"> Hotels </a></li>
+<li> <a href="alaskanp.html"> Alaska National Parks </a></li>
+<li> <a href="contactus.html"> Contact Us </a></li>
+</ul>
+</nav>
+
+</div>
+
+<div class="wrapper"> 
+<h2>contact us</h2>
+<form id="myform" onsubmit="return validate();" method="post" action = "https://docs.google.com/forms/u/1/d/e/1FAIpQLSfP31bAoegFNYRREZE66MoblJ6JGWztACcIvtHxoWUooT6tIQ/formResponse">
+<div class="input_field">
+<input type="text" placeholder="Name" id = "name" name="entry.1619155472">
+</div>
+<div class="input_field">
+<input type ="text" placeholder="Phone" id = "phone" name="entry.1653809601">
+</div>
+<div class = "input_field">
+<input type="text" placeholder="Email" id = "email" name="entry.1236200457">
+</div>
+<div class = "input_field">
+<textarea placeholder = "Message" id = "message" name="entry.1095420571"></textarea>
+</div>
+<div class="btn">
+<input type="submit">
+</div>
+</form>
+
+</div>
+
+
+<div class = "footer"> <p> 
+to know more about alaska visit <a href = "https://alaska.gov/" target = "_blank"> alaska </a> 
+</p>
+</div>
+
+
+</body>
+
+
+</html>
+
+
+
